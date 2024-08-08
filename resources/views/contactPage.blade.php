@@ -11,8 +11,8 @@
     <h1>Contact Page</h1>
 
     <a href="{{url('/')}}">Home</a>
-    <a href="{{url('/about')}}">About</a>
-    <a href="{{url('/contact')}}">Contact</a>
+    <a href="{{url('about')}}">About</a>
+    <a href="{{url('contact')}}">Contact</a>
 </body>
 
 </html>
