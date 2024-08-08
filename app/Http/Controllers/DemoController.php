@@ -8,6 +8,6 @@ class DemoController extends Controller
 {
     function MyName($firstName, $middleName, $lastName)
     {
-        return "My name is $firstName $middleName $lastName";
+        return view('DemoView', ['firstName' => $firstName, 'middleName' => $middleName, 'lastName' => $lastName]);
     }
 }
