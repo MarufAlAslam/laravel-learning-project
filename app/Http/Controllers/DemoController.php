@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class DemoController extends Controller
 {
-    function MyName($nameValue)
+    function MyName($firstName, $middleName, $lastName)
     {
-        return $nameValue;
+        return "My name is $firstName $middleName $lastName";
     }
 }
